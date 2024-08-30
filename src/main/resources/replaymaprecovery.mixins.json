@@ -1,0 +1,19 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "xyz.bluspring.replaymaprecovery.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "ChunkSerializerAccessor",
+        "ClientChunkCacheAccessor",
+        "ClientLevelAccessor",
+        "IOWorkerAccessor",
+        "StorageAccessor",
+        "TransientEntitySectionManagerAccessor"
+    ],
+    "client": [
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
